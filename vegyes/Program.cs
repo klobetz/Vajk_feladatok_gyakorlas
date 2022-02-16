@@ -17,7 +17,7 @@ namespace vegyes
         {            
            
             Console.WriteLine("Kérek egy számot: ");
-            var valasz = float.Parse(Console.ReadLine());
+            var valasz = double.Parse(Console.ReadLine());
             //var valasz2 = int.Parse(Console.ReadLine());
             valami = 0;
             valami2 = "Szövegem";
