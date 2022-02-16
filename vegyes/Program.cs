@@ -17,7 +17,7 @@ namespace vegyes
         {            
            
             Console.WriteLine("Kérek egy számot: ");
-            var valasz = Convert.ToInt32(Console.ReadLine());
+            var valasz = float.Parse(Console.ReadLine());
             //var valasz2 = int.Parse(Console.ReadLine());
             valami = 0;
             valami2 = "Szövegem";
@@ -30,7 +30,20 @@ namespace vegyes
                 Console.Write($"{szam}, ");
             }
 
-             
+            
+            //páros vagy páratlan vizsgálata
+            var maradekososztas = valasz / 2;
+            var egeszszam = Convert.ToInt32(valasz/2);
+
+            Console.WriteLine();
+            if (maradekososztas == egeszszam)
+            {
+                Console.WriteLine($"a beírt szám {valasz} páros");
+            }
+            else
+            {
+                Console.WriteLine($"a beírt szám {valasz} páratlan");
+            }
             
 
 
