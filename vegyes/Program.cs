@@ -45,6 +45,22 @@ namespace vegyes
                 Console.WriteLine($"a beírt szám {valasz} páratlan");
             }
             
+            var paros = 11 % 7;
+            var paratlan = valasz % 3;
+
+            Console.WriteLine(paros);
+
+            if (valasz%2==0)
+            {
+                Console.WriteLine("páros");
+            }
+
+            else
+            {
+                Console.WriteLine("páratlan");
+            }
+
+
 
 
             Console.ReadLine();
