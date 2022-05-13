@@ -21,13 +21,16 @@ namespace aouto_erettsegi
                     while (!sr.EndOfStream)
                     {
                         var sor = sr.ReadLine().Split();
-                        var a = new Adatszerkezet();
-                        a.nap = int.Parse(sor[0]);
-                        a.ido = sor[1];
-                        a.rendszam = sor[2];
-                        a.azonosito = int.Parse(sor[3]);
-                        a.kibehajtas = int.Parse(sor[4]);
-                        lista.Add(a);
+
+                        var adat = new Adatszerkezet(
+                            int.Parse(sor[0]),
+                            sor[1],
+                            sor[2],
+                            int.Parse(sor[3]),
+                            int.Parse(sor[4]),
+                            int.Parse(sor[5])
+                            );
+                        lista.Add(adat);
                     }
                 }
             }
@@ -35,8 +38,9 @@ namespace aouto_erettsegi
             foreach (var adat in lista)
             {
                 Console.WriteLine(adat.rendszam);
+                
             }
-
+            
             Console.ReadLine();
         }
     }

@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22_03_16_feladatok", "22_03
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Erettsegi_2021_maj", "Erettsegi_2021_maj\Erettsegi_2021_maj.csproj", "{0A0FC651-4B5D-4C39-8331-92FC18F89D9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aouto_erettsegi", "aouto_erettsegi\aouto_erettsegi.csproj", "{A2476B20-0536-4CDC-A5BB-5B6C01E54F9D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "auto_erettsegi", "aouto_erettsegi\auto_erettsegi.csproj", "{A2476B20-0536-4CDC-A5BB-5B6C01E54F9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
