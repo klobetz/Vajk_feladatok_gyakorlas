@@ -34,13 +34,17 @@ namespace aouto_erettsegi
                     }
                 }
             }
-
+            //lista bejárása
             foreach (var adat in lista)
             {
-                Console.WriteLine(adat.rendszam);
-                
+                Console.WriteLine(adat.Rendszam);                
             }
             
+            Console.WriteLine($"A lista {lista.Count} db elemet tartalmaz");
+
+            //az azonosító kiíratása növekvő sorrendben
+            lista.OrderBy(x => x.Azonosito).ToList().ForEach(x => Console.WriteLine(x.Azonosito));
+
             Console.ReadLine();
         }
     }
