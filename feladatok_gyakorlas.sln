@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negyedeves_konstruktoros", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negyedeves_sima", "Negyedeves_sima\Negyedeves_sima.csproj", "{F4BE2319-63E6-4069-9C75-770A18CE55E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci_sorozat", "Fibonacci_sorozat\Fibonacci_sorozat.csproj", "{F947FBE1-FCCE-4692-9AF9-912F7D798E3E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{F4BE2319-63E6-4069-9C75-770A18CE55E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4BE2319-63E6-4069-9C75-770A18CE55E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4BE2319-63E6-4069-9C75-770A18CE55E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F947FBE1-FCCE-4692-9AF9-912F7D798E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F947FBE1-FCCE-4692-9AF9-912F7D798E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F947FBE1-FCCE-4692-9AF9-912F7D798E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F947FBE1-FCCE-4692-9AF9-912F7D798E3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
