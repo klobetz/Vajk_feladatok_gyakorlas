@@ -33,7 +33,7 @@ namespace Negyedeves_sima
                 }
             }
 
-            Console.WriteLine($"a fájl {list.Count()} elemet tartalmaz\n");
+            Console.WriteLine($"a fájl {list.Count()} elemet tartalmaz!\n");
 
             foreach (var item in list)
             {
