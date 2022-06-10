@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auto_erettsegi_sima_beolvas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nevek_beolvasasa_2keresztnev", "Nevek_beolvasasa_2keresztnev\Nevek_beolvasasa_2keresztnev.csproj", "{ED1393D4-8740-425A-83DF-D11BC907D539}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negyedeves_konstruktoros", "Negyedeves_konstruktoros\Negyedeves_konstruktoros.csproj", "{AC76F0A1-5ED5-41DB-89C1-48EE9D48D09B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negyedeves_sima", "Negyedeves_sima\Negyedeves_sima.csproj", "{F4BE2319-63E6-4069-9C75-770A18CE55E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{ED1393D4-8740-425A-83DF-D11BC907D539}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED1393D4-8740-425A-83DF-D11BC907D539}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED1393D4-8740-425A-83DF-D11BC907D539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC76F0A1-5ED5-41DB-89C1-48EE9D48D09B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC76F0A1-5ED5-41DB-89C1-48EE9D48D09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC76F0A1-5ED5-41DB-89C1-48EE9D48D09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC76F0A1-5ED5-41DB-89C1-48EE9D48D09B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4BE2319-63E6-4069-9C75-770A18CE55E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4BE2319-63E6-4069-9C75-770A18CE55E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4BE2319-63E6-4069-9C75-770A18CE55E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4BE2319-63E6-4069-9C75-770A18CE55E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
