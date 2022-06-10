@@ -23,7 +23,7 @@ namespace Nevek_beolvasasa_2keresztnev
                         var adat = new Adatszerkezet(
                             sor[0],
                             sor[1],
-                            sor.Length > 2 ? sor[2] : ""      //egy soros iff-el lehet megcsinálni ha konstruktorba szeretnéd beolvasni
+                            sor.Length > 2 ? sor[2] : ""      //egy soros if-el lehet megcsinálni ha konstruktorba szeretnéd beolvasni
                                                               //mert a 3. elemet is fel kell tölteni ilyenkor valamivel PL: "" (üres karakter)
                         );
 
