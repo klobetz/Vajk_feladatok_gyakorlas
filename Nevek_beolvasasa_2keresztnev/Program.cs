@@ -12,7 +12,7 @@ namespace Nevek_beolvasasa_2keresztnev
         static void Main(string[] args)
         {
             var lista = new List<Adatszerkezet>()                ;
-            using (var fs = new FileStream("Negyedeves.txt", FileMode.Open))
+            using (var fs = new FileStream("Nevek.txt", FileMode.Open))
             {
                 using (var sr = new StreamReader(fs, Encoding.UTF8))
                 {
